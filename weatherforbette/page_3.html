@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>WeatherForBetter</title>
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="./css/page_3.css">
+
+  </head>
+  <body >
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-6">
+          <div class="card">
+            <div onclick="window.location = window.location.href.split('/').slice(0, -1).join('/')+'/page_1.html';">
+              <div class="card-header" style="background: #87CEFA">
+                <h2>WeatherForBetter</h2>
+              </div>
+            </div>
+            <div class="card-body" style="background: #f1f8fe">
+              <div id="example"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="page_3.js"></script>
+  </body>
+</html>
