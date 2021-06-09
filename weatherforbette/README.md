@@ -1,6 +1,7 @@
 In order to run the app, open terminal from the desktop and follow the following steps. Then click on page_1.html to open the app. 
 
 Steps needed to run the app:
+    
     1.Initialise the npm project environment
 	- npm init -y
 
